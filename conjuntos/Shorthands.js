@@ -2,7 +2,7 @@
 // Geralmente, um grupo de caracteres muito usado, possui um Shortrand
 const texto = `1,2,3,4,5,6a.b c!d?e	-
 f_g`
-// Pega os Números equivale a [0]
+// Pega os Números equivale a [0-9]
 console.log(texto.match(/\d/g)); 
 
 // Pega tudo que não for número equivale a  [^0-9]
