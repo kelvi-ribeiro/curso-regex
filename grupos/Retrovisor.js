@@ -20,3 +20,6 @@ console.log(texto2.replace(/(lenta)(mente)/gi, '$2'));
 console.log(texto2.replace(/(lenta)(mente)/gi, '$2Lenta'));
 
 console.log(texto2.replace(/(lenta)(mente)/gi, '$1 Mente'));
+
+const texto3 = 'abcdefghijkll';
+console.log(texto3.match(/(a)(b)(c)(d)(e)(f)(g)(h)(i)(j)(k)(l)\12/g))
